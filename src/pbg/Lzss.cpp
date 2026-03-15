@@ -253,7 +253,6 @@ u8 *Lzss::Encode(u8 *in, i32 inSize, i32 *outSize)
         DECODE_ADVANCE_READ_HEAD;                                                                                      \
     }
 
-
 #pragma var_order(currByte, outCursor, matchOffset, i, inBitMask, inCursor, inBits, size, matchLength, checksum,       \
                   dictValue, outBitMask, dictHead)
 /**
